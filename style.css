@@ -32,8 +32,9 @@ nav a:hover {
 
 h1 {
 	margin: 0;
+	padding-top: 10px;
 	padding-bottom: 20px;
-	font-size: 36px;
+	font-size: 30px;
 	color: #023c41;
 	
 	
@@ -53,7 +54,7 @@ section {
 
 h2 {
 	font-size: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: #023c41;
 }
 
@@ -101,7 +102,7 @@ li {
   }
 
   .header a.logo {
-	font-size: 30px;
+	font-size: 40px;
 	padding: auto;
 	text-align: center;
 	font-weight: bold;
