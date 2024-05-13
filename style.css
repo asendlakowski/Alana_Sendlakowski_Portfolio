@@ -1,11 +1,23 @@
 body {
 	font-family: Arial, sans-serif;
+	background-color: #AFDDE5;
 }
 
-header {
+/* header {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
+} */
+
+nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
 }
 
 nav ul {
@@ -19,10 +31,10 @@ nav li {
 	margin-right: 20px;
 }
 
-nav a {
+/* nav a {
 	color: #fff;
 	text-decoration: none;
-}
+} */
 
 nav a:hover {
 	text-decoration: underline;
@@ -31,7 +43,8 @@ nav a:hover {
 h1 {
 	margin: 0;
 	font-size: 48px;
-	text-align: center;
+	
+	/* text-align: center; */
 }
 
 main {
@@ -56,9 +69,55 @@ ul {
 }
 
 li {
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 }
 
-/* img {
-	max-width
-} */
+/* added 5/12/24 for header */
+
+.header {
+	overflow: hidden;
+	background-color: #0fa4af;
+	padding: 20px 10px;
+  }
+  
+  .header a {
+	float: left;
+	color: #024950;
+	text-align: center;
+	padding: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
+  }
+  
+  
+  
+  .header a:hover {
+	background-color: #AFDDE5;
+	color: black;
+  }
+  
+  .header a.active {
+	background-color: #129098;
+	color: #023c41;
+  }
+
+  .header a.logo {
+	font-size: 30px;
+	padding: auto;
+	text-align: center;
+	/* padding-left: 15px; */
+	font-weight: bold;
+  }
+
+  .header a.logo:hover {
+	background-color: #0fa4af;
+	color: black;
+  }
+  
+  .header-right {
+	float: right;
+  }
