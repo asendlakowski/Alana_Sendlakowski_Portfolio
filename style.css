@@ -52,8 +52,9 @@ section {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 40px;
 	margin-bottom: 20px;
+	color: #023c41;
 }
 
 ul {
@@ -181,4 +182,11 @@ li {
   .pic:hover .imgtext {
 	-webkit-opacity: 1;
 	opacity: .85;
+  }
+
+  .pdf {
+	/* margin: auto; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
   }
