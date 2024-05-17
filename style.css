@@ -13,6 +13,7 @@ nav a {
 	font-size: 18px; 
 	line-height: 25px;
 	border-radius: 4px;
+	/* font-weight: bold; */
 }
 
 nav ul {
@@ -32,9 +33,10 @@ nav a:hover {
 
 h1 {
 	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	font-size: 30px;
+	padding-top: 1.8vw;
+	padding-bottom: 1.8vw;
+	/* font-size: 30px; */
+	font-size: 2.2vw;
 	color: #023c41;
 	
 	
@@ -42,10 +44,11 @@ h1 {
 
 main {
 	margin: 0 auto;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-top: 8.2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	/* padding-top: 20px; */
+	padding-bottom: 1.2vw;
 }
 
 section {
@@ -53,7 +56,7 @@ section {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 2.7vw;
 	margin-bottom: 30px;
 	color: #023c41;
 }
@@ -65,27 +68,45 @@ ul {
 }
 
 li {
-	margin-bottom: 35px;
+	margin-bottom: 2.2vw;
 	/* padding-bottom: 20px; */
 }
 
 /* added 5/12/24 for header */
 
-.header {
-	overflow: hidden;
+header {
+	/* overflow: hidden; */
 	background-color: #0fa4af;
-	padding: 20px 10px;
+	width: 100%;
+	/* padding: 20px 20px; */
+	/* padding: 2vw 1.5vw; */
+	/* padding-bottom: 1.5vw;
+	padding-top: 1.5vw; */
+	/* padding: 1.5vw; */
+	/* margin: 10%; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	/* border-radius: 1.5vw; */
+	/* margin: 0; */
+  }
+
+  .header {
+	padding: 1.5vw;
+	/* padding-bottom: 20px; */
   }
   
   .header a {
 	float: left;
 	color: #024950;
 	text-align: center;
-	padding: 12px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
 	text-decoration: none;
-	font-size: 18px; 
+	font-size: medium; 
 	line-height: 25px;
 	border-radius: 4px;
   }
@@ -94,7 +115,7 @@ li {
   
   .header a:hover {
 	background-color: #AFDDE5;
-	color: black;
+	color: #023c41;
   }
   
   .header a.active {
@@ -103,15 +124,16 @@ li {
   }
 
   .header a.logo {
-	font-size: 40px;
+	/* font-size: 40px; */
 	padding: auto;
 	text-align: center;
 	font-weight: bold;
+	font-size: 2.8vw;
   }
 
   .header a.logo:hover {
 	background-color: #0fa4af;
-	color: black;
+	color: #023c41;
   }
   
   .header-right {
@@ -158,7 +180,7 @@ li {
 	color: white;
 	background: #0fa4af;
 	width: 100%;
-	padding: 100px; /* Adjust padding as needed */
+	padding: 2.5vw; /* Adjust padding as needed */
 	/* font-size: 32px; */
 	font-size: 2.2vw;
 	text-align: center;
@@ -193,6 +215,7 @@ li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	/* width: 100%; */
   }
 
 
@@ -246,6 +269,7 @@ hr {
 h4 {
 	padding-top: 15px;
 	margin: 0;
+	/* font-size: 2.8vw; */
 	/* color: #129098; */
 }
 
@@ -253,6 +277,7 @@ h5 {
 	padding-top: 5px;
 	/* padding-bottom: 5px; */
 	margin: 0;
+	/* font-size: 2.2vw; */
 	/* color: #129098; */
 }
 
@@ -261,5 +286,6 @@ h6 {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	font-size: 30px;
+	/* font-size: 4vw; */
 	color: #023c41;
 }
